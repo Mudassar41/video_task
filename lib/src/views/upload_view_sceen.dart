@@ -8,7 +8,7 @@ import 'package:video_player/video_player.dart';
 
 ///
 ///We can also handle this page by statemanagement
-///but duw to shortage of time I am using only setState for now
+///but due to shortage of time I am using only setState for now
 ///
 
 class UploadViewVideoScreen extends StatefulWidget {
