@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "1059041790295",
+    "project_id": "schedular-demo-dd8b9",
+    "storage_bucket": "schedular-demo-dd8b9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1059041790295:android:7e5e6d26057766151bd612",
+        "android_client_info": {
+          "package_name": "com.example.task_assesment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1059041790295-0hve796kicvunv2irg2qijfr4njidfig.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIUQxqK9ymlrKwi5c0r2c61soognKycZQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1059041790295-0hve796kicvunv2irg2qijfr4njidfig.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1059041790295-9ftf9abutmedncf9tevuskdvimm2g0ef.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.vision.schedular"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1059041790295:android:5fa8d45e189209f11bd612",
+        "android_client_info": {
+          "package_name": "com.vision.schedular"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1059041790295-0hve796kicvunv2irg2qijfr4njidfig.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIUQxqK9ymlrKwi5c0r2c61soognKycZQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1059041790295-0hve796kicvunv2irg2qijfr4njidfig.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1059041790295-9ftf9abutmedncf9tevuskdvimm2g0ef.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.vision.schedular"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
