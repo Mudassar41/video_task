@@ -12,9 +12,9 @@ class FirebaseStorageService {
 
       for (final Reference item in response.items) {
         final String url = await item.getDownloadURL();
-        final thumbnail = await MediaHelper.generateThumbnail(url);
 
-        VideoModel videoModel = VideoModel(url: url, thumbnail: thumbnail);
+
+        VideoModel videoModel = VideoModel(url: url, thumbnail: 'https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510_640.jpg');
 
         videos.add(videoModel);
       }
@@ -30,10 +30,8 @@ class FirebaseStorageService {
       Reference storageReference = FirebaseStorage.instance
           .ref('Videos')
           .child(fileName + DateTime.now().toString());
-
       UploadTask uploadTask = storageReference.putFile(videoFile);
-
-      TaskSnapshot taskSnapshot = await uploadTask.whenComplete(() {});
+     TaskSnapshot taskSnapshot = await uploadTask.whenComplete(() {});
     } catch (e) {
       rethrow;
     }

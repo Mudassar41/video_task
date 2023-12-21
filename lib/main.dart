@@ -1,7 +1,9 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 import 'package:task_assesment/firebase_options.dart';
+import 'package:task_assesment/src/view_model/media_view_model.dart';
 import 'package:task_assesment/src/views/videos_screen.dart';
 
 void main() async {
@@ -33,7 +35,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const VideosScreen(),
+      home: ChangeNotifierProvider(
+          create: (context) => MediaViewModel(), child: const VideosScreen()),
     );
   }
 }

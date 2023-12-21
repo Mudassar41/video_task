@@ -29,7 +29,8 @@ class _VideosScreenState extends State<VideosScreen> {
           Navigator.push(
             context,
             MaterialPageRoute(
-              builder: (context) => const UploadViewVideoScreen(
+              builder: (context) => UploadViewVideoScreen(
+                mediaViewModel: mediaViewModel,
                 uploadOnly: true,
               ),
             ),
@@ -60,6 +61,7 @@ class _VideosScreenState extends State<VideosScreen> {
                     MaterialPageRoute(
                         builder: (context) => UploadViewVideoScreen(
                               videoModel: data[index],
+                              mediaViewModel: mediaViewModel,
                             )),
                   );
                 },

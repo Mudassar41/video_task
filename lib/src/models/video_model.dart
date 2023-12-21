@@ -6,7 +6,7 @@ part 'video_model.freezed.dart';
 @freezed
 class VideoModel with _$VideoModel {
   const factory VideoModel({
-    Uint8List? thumbnail,
+    String? thumbnail,
     required String url,
   }) = _VideoModel;
 

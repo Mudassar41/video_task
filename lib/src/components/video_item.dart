@@ -19,7 +19,7 @@ class VideoItem extends StatelessWidget {
                 borderRadius: const BorderRadius.all(Radius.circular(8.0)),
                 image: DecorationImage(
                   fit: BoxFit.cover,
-                  image: MemoryImage(videoModel.thumbnail!),
+                  image: NetworkImage(videoModel.thumbnail!),
                 )),
           ),
           Positioned(
