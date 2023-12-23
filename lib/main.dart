@@ -35,8 +35,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: ChangeNotifierProvider(
-          create: (context) => MediaViewModel(), child: const VideosScreen()),
+      home: const VideosScreen(),
     );
   }
 }
